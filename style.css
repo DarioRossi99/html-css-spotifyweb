@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar{
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex-shrink: 0;
+
+    width: 60px;
+
+    background-color: black;
+
+}
+
+.main-logo{
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.size-icon{
+
+    width: 30px;
+
+}
+
+.side-bar .mid-section{
+
+    flex-grow: 1;
+
+    overflow: auto;
+
+}
+
+.logolg{
+
+    display: none;
+
+    padding: 1rem;
+
+}
+
+.side-bar .top-section{
+
+    flex-shrink: 0;
+
+}
+
+.side-bar .bot-section{
+
+    flex-shrink: 0;
+
+}
+
+.mid-section .playlist-container{
+
+    display: none;
+
+}
+
+
+.top-container{
+    
+    display: flex;
+
+    flex-grow: 1;
+
+}
+
+.main-container{
+
+    display: flex;
+
+    flex-grow: 1;
+
+}
+
+.bottom-navber{
+
+    display: flex;
+
+    flex-shrink: 0;
+
+}
