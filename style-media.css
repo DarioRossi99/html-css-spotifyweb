@@ -48,6 +48,35 @@
 
     }
 
+    .text-icon{
+
+        display: inline-block;
+
+        padding: 0.5rem;
+
+        text-decoration: none;
+
+        color: white;
+    }
+
+    .text-icon-gray{
+
+        display: inline-block;
+
+        padding: 0.5rem;
+
+        text-decoration: none;
+
+        color: gray;
+    }
+
+    .fa-solid, .fas {
+        font-weight: 900;
+        color: gray;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+    }
+
 }
 
 @media screen and (min-width: 768px) {

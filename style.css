@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 body{
@@ -10,6 +9,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+}
+
+#img-song-size{
+
+    width: 30px;
+
 }
 
 .side-bar{
@@ -34,11 +39,25 @@ body{
 
     justify-content: center;
 
+    text-decoration: none;
+
 }
 
 .size-icon{
 
     width: 30px;
+
+}
+
+.text-icon{
+
+    display: none;
+
+}
+
+.text-icon-gray{
+
+    display: none;
 
 }
 
@@ -62,16 +81,49 @@ body{
 
 }
 
+.font-h2{
+
+    color: white;
+
+    padding-top: 1rem;
+
+    font-size: 1rem;
+
+}
+
+.card{
+
+    border: 1px solid red;
+    margin: 0 10px;
+
+}
+
+.cardContainer{
+    display: flex;
+    border: 1px solid blue;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
 .logolg{
 
     display: none;
-
 
 }
 
 .line .main-logo{
 
     padding-top: 1rem;
+
+}
+
+.update{
+
+    display: flex;
+
+    justify-content: end;
+
+    background-color:black
 
 }
 
@@ -110,16 +162,105 @@ body{
 
 .main-container{
 
-    display: flex;
+    width: calc(100vh - 40px);
+
+    background-color: rgb(20, 25, 34);
 
     flex-grow: 1;
 
 }
 
-.bottom-navber{
+.update{
+
+}
+
+.consigli{
+
+    display: flex;
+
+    padding: 0 1rem;
+
+    color: white;
+
+    border: 0.5px solid red;
+
+    font-size: x-small;
+
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+}
+
+.text-consigli{
+
+    padding: 1rem;
+
+    text-decoration: none;
+
+    color: grey;
+
+}
+
+.song-played-container{
+
+    border: 0.5px solid red;
+
+}
+
+
+.bottom-navbar{
 
     display: flex;
 
     flex-shrink: 0;
+
+    background-color: rgb(40, 40, 40);
+
+    justify-content: space-between;
+
+}
+
+.comand{
+
+    display: flex;
+
+    border: 0.5px solid red;
+
+}
+
+.songimg{
+
+    display: flex;
+
+    padding: 0.5rem;
+
+}
+
+.text-comand-song{
+
+    display: flex;
+
+    flex-direction: column;
+
+    color: white;
+
+    font-size: x-small;
+
+    padding: 0.5rem 0.5rem 0.5rem 0;
+
+}
+
+.icon-comand-song{
+
+    display: flex;
+
+    flex-direction: column;
+
+    color: white;
+
+    font-size: x-small;
+
+    padding: 0.5rem 0 0 0.5rem;
 
 }
