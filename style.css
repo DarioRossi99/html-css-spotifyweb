@@ -100,16 +100,16 @@ body{
 .update{
     display: flex;
     justify-content: end;
-    background-color:black;
+    background-color: rgba(0, 0, 0, 30%);
     padding: 1rem;
 }
 
-.update button {
+.update button{
     border-color: white;
     background-color: black;
     color: white;
     padding: 0.3rem 0.5rem;
-    border-radius: 40%;
+    border-radius: 40px;
     font-size: x-small;
 }
 
@@ -181,10 +181,12 @@ body{
     display: flex;
     flex-direction: column;
     border: 0.5px solid red;
+    min-width: 150px;
 }
 
 .song-icon{
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 .songimg{
@@ -207,4 +209,40 @@ body{
     font-size: smaller;
     padding: 0.5rem 0 0.5rem 0.5rem;
     justify-content: space-between;
+}
+
+.comand2 .song-icon .fa-solid, .fa{
+    color: white;
+    font-size: inherit;
+}
+
+.song-icon .fa-regular, .fa-circle-play{
+font-size: larger;
+color: white;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: x-small;
+    padding: 0.5rem 0;
+    align-items: baseline;
+}
+
+.bar-time{
+    display: flex;
+    width: 90px;
+    height: 4px;
+}
+
+.min-1{
+background-color: white;
+flex-basis: 20%;
+}
+
+.min-2{
+background-color: gray;
+flex-basis: 80%;
 }
