@@ -12,65 +12,42 @@ body{
 }
 
 #img-song-size{
-
     width: 30px;
-
 }
 
 .side-bar{
-
     display: flex;
-
     flex-direction: column;
-
     flex-shrink: 0;
-
     width: 60px;
-
     background-color: black;
-
     padding: 0.5rem;
-
 }
 
 .main-logo{
-
     display: flex;
-
     justify-content: center;
-
     text-decoration: none;
-
 }
 
 .size-icon{
-
     width: 30px;
-
 }
 
 .text-icon{
-
     display: none;
-
 }
 
 .text-icon-gray{
-
     display: none;
-
 }
 
 .size-icon-small{
-
     width: 20px;
-
 }
 
 .line{
-
     display: none;
-
 }
 
 .side-bar .mid-section{
@@ -82,20 +59,19 @@ body{
 }
 
 .font-h2{
-
     color: white;
-
     padding-top: 1rem;
-
     font-size: 1rem;
-
 }
 
 .card{
-
     border: 1px solid red;
     margin: 0 10px;
+}
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cardContainer{
@@ -103,71 +79,55 @@ body{
     border: 1px solid blue;
     padding: 10px;
     flex-wrap: wrap;
+    
+}
+
+.col-1_2{
+    width: 50%;
 }
 
 .logolg{
-
     display: none;
-
 }
 
 .line .main-logo{
-
     padding-top: 1rem;
-
 }
 
 .update{
-
     display: flex;
-
     justify-content: end;
-
     background-color:black
-
 }
 
 .logosm{
-
     padding-bottom: 1rem;
-
 }
 
 .side-bar .top-section{
-
     flex-shrink: 0;
-
 }
 
 .side-bar .bot-section{
-
     flex-shrink: 0;
-
 }
 
 .mid-section .playlist-container{
-
     display: none;
-
 }
 
 
 .top-container{
-    
     display: flex;
-
     flex-grow: 1;
-
+    overflow: auto;
 }
 
 .main-container{
-
     width: calc(100vh - 40px);
-
     background-color: rgb(20, 25, 34);
-
     flex-grow: 1;
-
+    overflow: auto;
 }
 
 .update{
@@ -175,92 +135,55 @@ body{
 }
 
 .consigli{
-
     display: flex;
-
-    padding: 0 1rem;
-
+    padding: 0 0.5rem;
     color: white;
-
     border: 0.5px solid red;
-
     font-size: x-small;
-
-    justify-content: space-around;
-
+    justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .text-consigli{
-
-    padding: 1rem;
-
+    padding: 0.6rem;
     text-decoration: none;
-
     color: grey;
-
 }
 
 .song-played-container{
-
     border: 0.5px solid red;
-
 }
 
 
 .bottom-navbar{
-
     display: flex;
-
     flex-shrink: 0;
-
     background-color: rgb(40, 40, 40);
-
     justify-content: space-between;
-
 }
 
 .comand{
-
     display: flex;
-
     border: 0.5px solid red;
-
 }
 
 .songimg{
-
     display: flex;
-
     padding: 0.5rem;
-
 }
 
 .text-comand-song{
-
     display: flex;
-
     flex-direction: column;
-
     color: white;
-
     font-size: x-small;
-
     padding: 0.5rem 0.5rem 0.5rem 0;
-
 }
 
 .icon-comand-song{
-
     display: flex;
-
     flex-direction: column;
-
     color: white;
-
     font-size: x-small;
-
     padding: 0.5rem 0 0 0.5rem;
-
 }
